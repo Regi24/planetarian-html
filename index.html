@@ -10,11 +10,11 @@
 
 
 <script>
-    var scenes = new Array();
+    var scenes = [];
 
-    $.getJSON(".assets/story/scenes.json", function(data) {
+    $.getJSON("https://raw.githubusercontent.com/Regi24/planetarian-html/master/assets/story/scenes.json?token=AHEVrezP4j5AuUVEjfowGdiTz8x01e6Kks5aHUvkwA%3D%3D", function(data) {
         scenes = data;
-        console.log(data[0].title);
+        console.log(scenes[0].title);
     });
 
 </script>
