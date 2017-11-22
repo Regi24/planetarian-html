@@ -1,6 +1,7 @@
 var scenes = [];
 var counter = 0;
 var music = new Audio('');
+var dialogue = new Audio('');
 
 // Load external JSON file into scenes array
 function loadJSON() {
@@ -13,16 +14,24 @@ function loadJSON() {
 
 function nextScene() {
 	if(counter < scenes.length) {
-		document.getElementById("dialogue").innerHTML = scenes[counter].title;
-		playMusic(scenes[counter].music);
+		document.getElementById("dialogue").innerHTML = scenes[counter].text;
+		//playMusic(scenes[counter].music);
+		//if(scenes[counter].dialogue !== '') {
+			playDialogue(scenes[counter].dialogue);
+		//}
 		counter++;
-	} 
+	}
 }
 
 function playMusic(musicName) {
 	if(!music.paused) {
 		music.pause();
 	}
-	
+
 	music = new Audio('./assets/music/' + musicName).play();
+}
+
+function playDialogue(dialogueName) {
+	console.log('Play dialogue: ' + dialogueName)
+	music = new Audio('./assets/dialogue/' + dialogueName + '.ogg').play();
 }

@@ -1,9 +1,12 @@
 [
     {
-        "title": "opening",
-        "background": "opening.png",
-        "music": "opening.mp3"
-		
+        "title": "scene00000",
+        "background": "",
+        "music": "",
+        "dialogue": "dialogue00000",
+        "text": "'Congratulations!'",
+        "clearText": "false"
+
     },
     {
         "title": "scene000",
