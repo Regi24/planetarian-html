@@ -5,12 +5,142 @@
         "music": "",
         "dialogue": "dialogue00000",
         "text": "'Congratulations!'",
-        "clearText": "false"
-
+        "appendText" : "false",
+        "newLine" : "false"
     },
     {
-        "title": "scene000",
-        "background": "scene000.png",
-        "music": "scene000.mp3"
+        "title": "scene00001",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "Both my eyes were shot through with light.",
+        "appendText" : "false",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00002",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "I tore the night-vision goggles off my face before they burned out my retinas.",
+        "appendText" : "true",
+        "newLine" : "true"
+    },
+    {
+        "title": "scene00003",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "For several seconds, I wasn't able to do anything at all.",
+        "appendText" : "true",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00004",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "However, the sound that assailed me next was neither the crack of machine-gun fire, nor was it the hiss of nerve gas.",
+        "appendText" : "true",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00005",
+        "background": "",
+        "music": "",
+        "dialogue": "dialogue00005",
+        "text": "'You are our 2, 500, 000th customer!'",
+        "appendText" : "false",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00006",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "No, it was a young woman's voice, clear and sweet, completely out of place in the midst of the godforsaken rubble.",
+        "appendText" : "true",
+        "newLine" : "true"
+    },
+    {
+        "title": "scene00007",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "Since it was reverberating off the high ceiling, it was difficult to ascertain its point of origin.",
+        "appendText" : "true",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00008",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "I pointed my grenade launcher forward, alarmed.",
+        "appendText" : "false",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00009",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "Even though I let the tension in my trigger finger drain away, I kept the weapon pointed straight ahead.",
+        "appendText" : "true",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00010",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "After all, sometimes intimidation alone was enough.",
+        "appendText" : "false",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00011",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "However, if that other person was trying to kill me...",
+        "appendText" : "true",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00012",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "'......'",
+        "appendText" : "false",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00013",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "The owner of that voice immediately fell silent.",
+        "appendText" : "true",
+        "newLine" : "true"
+    },
+    {
+        "title": "scene00014",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "When...",
+        "appendText" : "true",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00015",
+        "background": "",
+        "music": "",
+        "dialogue": "scene00015",
+        "text": "'Oh my, that inexcusable. I humbly beg your pardon.'",
+        "appendText" : "false",
+        "newLine" : "false"
     }
 ]

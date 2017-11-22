@@ -14,11 +14,20 @@ function loadJSON() {
 
 function nextScene() {
 	if(counter < scenes.length) {
-		document.getElementById("dialogue").innerHTML = scenes[counter].text;
+		//document.getElementById("text").innerHTML = 'qweqwewqewqe';
 		//playMusic(scenes[counter].music);
 		//if(scenes[counter].dialogue !== '') {
-			playDialogue(scenes[counter].dialogue);
+		playDialogue(scenes[counter].dialogue);
 		//}
+
+		if(scenes[counter].clearText === 'true') {
+			clearText();
+		}
+		if(scenes[counter].appendText === 'true') {
+			appendText(scenes[counter].text, scenes[counter].newLine);
+		} else {
+			displayText(scenes[counter].text);
+		}
 		counter++;
 	}
 }
@@ -32,6 +41,26 @@ function playMusic(musicName) {
 }
 
 function playDialogue(dialogueName) {
-	console.log('Play dialogue: ' + dialogueName)
-	music = new Audio('./assets/dialogue/' + dialogueName + '.ogg').play();
+	console.log('Play dialogue: ' + dialogueName);
+	music = new Audio('./assets/dialogue/' + dialogueName + '.mp3').play();
+}
+
+function displayText(text) {
+	console.log('Display text: ' + text);
+	document.getElementById("text").innerHTML = text;
+}
+
+function appendText(text, newLine) {
+	console.log('Append text: ' + text);
+	if(newLine === 'true') {
+		document.getElementById("text").innerHTML += '<br />' + text;
+	} else {
+		document.getElementById("text").innerHTML += ' ' + text;
+	}
+
+}
+
+function clearText() {
+	console.log('Clear text');
+	document.getElementById("text").innerHTML = '';
 }

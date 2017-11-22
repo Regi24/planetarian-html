@@ -5,16 +5,28 @@
         <script type="text/javascript" src="./scripts/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="./scripts/sora.js"></script>
 
-		<script>
+        <style>
+            .dialogueBox {
+                margin: auto;
+                width: 50%;
+                height: 200px;
+                border: 3px solid white;
+            }
 
-		</script>
+            button {
+                vertical-align: bottom;
+            }
+        </style>
 
     </head>
 
 	<body onload="loadJSON()" bgcolor="#000000">
-		<button onclick="nextScene()">Next</button>
+        <div class="dialogueBox">
+            <p id="text" style="color:white;"></p>
+        </div>
 
-		<p id="dialogue" style="color:white;"></p>
+        <center><button onclick="nextScene()">Next</button></center>
+
 
 	</body>
 
