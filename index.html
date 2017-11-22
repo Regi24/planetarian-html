@@ -3,20 +3,20 @@
     <head>
         <title>planetarian ~HTML Edition~</title>
         <script type="text/javascript" src="./scripts/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="./scripts/sora.js"></script>
+		
+		<script>
+
+		</script>
+		
     </head>
+	
+	<body onload="loadJSON()">
+		<button onclick="nextScene()">Next</button>
+		
+		<p id="speech"></p>
 
+	</body>
 
-
-
-
-<script>
-    var scenes = [];
-
-    $.getJSON("https://raw.githubusercontent.com/Regi24/planetarian-html/master/assets/story/scenes.json?token=AHEVrezP4j5AuUVEjfowGdiTz8x01e6Kks5aHUvkwA%3D%3D", function(data) {
-        scenes = data;
-        console.log(scenes[0].title);
-    });
-
-</script>
 
 </html>
