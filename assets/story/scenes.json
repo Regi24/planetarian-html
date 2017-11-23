@@ -142,5 +142,32 @@
         "text": "'Oh my, that was inexcusable. I humbly, humbly beg your pardon.'",
         "appendText" : "false",
         "newLine" : "false"
+    },
+    {
+        "title": "scene00016",
+        "background": "",
+        "music": "",
+        "dialogue": "",
+        "text": "She started apologizing with an incredible burst of energy.",
+        "appendText" : "true",
+        "newLine" : "true"
+    },
+    {
+        "title": "scene00017",
+        "background": "",
+        "music": "",
+        "dialogue": "dialogue00017",
+        "text": "'It's quite a long way from the truth, actually. To be precise, you are the 2,497,288th customer. I cheated by 2712 places.'",
+        "appendText" : "false",
+        "newLine" : "false"
+    },
+    {
+        "title": "scene00018",
+        "background": "",
+        "music": "",
+        "dialogue": "dialogue00018",
+        "text": "'And yet, I thought that you would just accept it happily...'",
+        "appendText" : "false",
+        "newLine" : "false"
     }
 ]
