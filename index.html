@@ -7,49 +7,47 @@
 
         <style>
             .dialogueBox {
-                margin: auto;
                 height: 100%;
-                /*height: 90%;*/
-                /*border: 3px solid white;*/
-                /*z-index: 1;*/
+                /*border: 1px solid green;*/
             }
 
             #background {
-                /*display: block;
-                margin: auto;*/
-                position: absolute;
+                display: block;
+                margin: 0 auto;
                 height: 100%;
-                /*z-index: -1;*/
+                position: relative;
             }
 
             button {
-                /*vertical-align: bottom;*/
                 position: absolute;
             }
 
             p {
-                z-index: 100;
                 position: absolute;
-                font-size: 40px ;
+                font-size: 35px ;
                 font-family: "Arial";
+                left: 400px;
+                top: 450px;
+                max-width: 60%;
             }
+
+            body, html {
+                height: 100%;
+                margin: 0;
+            }
+
+
         </style>
 
     </head>
 
-	<body onload="loadJSON()" bgcolor="#000000">
-
-
-
+	<body onload="loadJSON()" onclick="nextScene()" bgcolor="#000000">
         <div class="dialogueBox">
             <img id="background" src=''>
             <p id="text" style="color:white;"></p>
-            <button onclick="nextScene()">Next</button>
         </div>
 
-
-
-
+        <!-- <button onclick="nextScene()">Next</button> -->
 	</body>
 
 
